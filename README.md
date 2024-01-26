@@ -6,7 +6,7 @@ Como estou iniciando os estudos em desenvolvimento web, achei essa uma ótima op
 
 Aqui, o objetivo é criar uma "cópia" da página do Spotify com todas as funcionalidades principais.
 
-Diariámente eu estarei enviando alterações ao repositório, isso até o projeto estar completo.
+Diáriamente eu estarei enviando alterações ao repositório, isso até o projeto estar completo.
 
 ## Código
 Você pode visualizar o código em seu momento atual clicando [aqui!](https://github.com/Cx1que/Imercao-Alura/blob/main/index.html). Ah... e você também pode entrar em contato direto comigo acessando o meu [GItHub](https://github.com/), quem sabe você não encontra outros projetos legais por lá!
