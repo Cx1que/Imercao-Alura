@@ -55,6 +55,7 @@ body {
     font-weight: 600;
     font-size: 14px;
     margin-top: 10px;
+    height: 556px;
 }
 
 .library .library__content {
@@ -176,7 +177,9 @@ body {
     right: 8px;
     bottom: 8px;
     padding: 6px;
+    cursor: pointer;
 }
+
 
 .disclaimer-premium .text {
     display: flex;
@@ -189,7 +192,7 @@ body {
 .disclaimer-premium__title {
     font-weight: bold;
 }
-  
+
 .disclaimer-premium__subtitle {
     font-weight: 500;
     font-size: 16px;
@@ -208,6 +211,10 @@ body {
     padding: 16px 35px;
     font-size: 16px;
     font-weight: bold;
-    
+    cursor: pointer;
 }
-  
+
+.disclaimer-premium .inscreva-se:hover {
+    transform: scale(1.04);
+    color: var(--text-base-light);
+}
