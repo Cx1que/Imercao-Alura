@@ -61,6 +61,7 @@ body {
 .library .library__content {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 0px;
 }
 
 .library .library__button {
@@ -90,14 +91,15 @@ body {
 
 .section-playlist {
     display: flex;
+    flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
-    gap: 20px;
+    gap: 40px;
     background-color: #242424;
     color: #b3b3b3;
     font-weight: 600;
     font-size: 14px;
-    margin: 8px 0px;
+    margin-bottom: 8px;
     padding: 16px 20px;
     border-radius: 10px;
 }
@@ -135,6 +137,27 @@ body {
     margin-top: 12px;
     border: 0px;
     width: 113px;
+    cursor: pointer;
+}
+.section-playlist__content .section-playlist__button2 {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    color: #000;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: none;
+    padding: 10px;
+    margin-top: 12px;
+    border: 0px;
+    width: 125px;
+    cursor: pointer;
+}
+
+.section-playlist__content .section-playlist__button:hover {
+    transform: scale(1.04);
 }
 
 .sidebar .cookies {
@@ -216,5 +239,5 @@ body {
 
 .disclaimer-premium .inscreva-se:hover {
     transform: scale(1.04);
-    color: var(--text-base-light);
+
 }

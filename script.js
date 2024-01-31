@@ -1,3 +1,6 @@
+/* COMANDO PARA RODAR O JSON SERVER
+  json-server --watch api-artists/artists.json --port 3000 */
+
 const resultArtist = document.getElementById("result-artist");
 const playlistContainer = document.getElementById("result-playlists");
 const searchInput = document.getElementById("search-input");
